@@ -1,0 +1,23 @@
+{
+  "name": "js-sim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.11.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/plotly.js-basic-dist-min": "^2.12.1",
+    "plotly.js-basic-dist-min": "^2.18.0"
+  }
+}
